@@ -1,0 +1,89 @@
+@media screen and (max-width: 992px) {
+
+ /* Menu */
+
+nav li {
+   margin: 0;
+}
+ 
+ /* Zone de recherche */
+
+ #search-bar {
+    height: 50px;
+    width: 400px;
+ }
+ 
+ .search-text {
+    width: 220px;
+    padding: 0;
+ }
+ 
+ /* Zone des filtres de recherche */
+ 
+ #filters {
+   display: flex;
+   flex-direction: column;
+}
+
+.filter-title {
+   font-size: 25px;
+}
+
+#search-filters {
+   flex-wrap: wrap;
+   justify-content: flex-start;
+}
+
+.search-filter {
+   height: 60px;
+   width: auto;
+   border: 3px solid #D6D6D6;
+   border-left-width: 0px;
+   border-radius: 50px;
+   margin-right: 20px;
+   margin-bottom: 30px;
+}
+
+.round-filter {
+   width: 60px;
+   height: 60px;
+}
+
+.icone-filter {
+   font-size: 25px;
+}
+
+.filter-name {
+   font-size: 20px;
+   margin-left: 30px;
+   margin-right: 40px;
+}
+
+/* Ligne d'information */
+ 
+.info-line {
+   margin-top: 30px;
+}
+ 
+ /* Résultats de la recherche d'hébergements selon les filtres */
+
+ 
+#result-filtres {
+   align-items: flex-start;
+   height: auto;
+   width: 90%;
+}
+ 
+ .ligne-result {
+    align-self: center;
+    width: 90%;
+    height: auto;
+    margin: 10px 0;
+ }
+ 
+ .card-heberg {
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+
+}
